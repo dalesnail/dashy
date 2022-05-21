@@ -19,8 +19,8 @@ appConfig:
       background: '#202020'
       background-darker: '#121212'
 sections:
-  - name: Home
-    icon: fas fa-house-night
+  - name: Seedbox
+    icon: fas fa-seedling
     items:
       - title: Stash
         icon: hl-stash
