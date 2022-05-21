@@ -49,6 +49,21 @@ sections:
       hideForGuests: false
   - name: Seedbox
     icon: fas fa-seedling
+      - title: Hydra
+        icon: fas fa-radar
+        url: https://dalesnail.lw601.usbx.me/nzbhydra2
+      - title: NZBGet
+        icon: fas fa-download
+        url: https://dalesnail.lw601.usbx.me/nzbget
+        target: newtab
+      - title: Nextcloud
+        icon: fas fa-cloud
+        url: https://dalesnail.lw601.usbx.me/nextcloud
+        target: newtab
+      - title: Plex
+        icon: hl-plex
+        url: https://app.plex.tv/web/app
+        target: newtab
     displayData:
       sortBy: default
       rows: 1
