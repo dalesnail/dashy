@@ -53,18 +53,22 @@ sections:
       - title: Hydra
         icon: fas fa-radar
         url: https://dalesnail.lw601.usbx.me/nzbhydra2
+        id: 0_714_hydra
       - title: NZBGet
         icon: fas fa-download
         url: https://dalesnail.lw601.usbx.me/nzbget
         target: newtab
+        id: 1_714_nzbGet
       - title: Nextcloud
         icon: fas fa-cloud
         url: https://dalesnail.lw601.usbx.me/nextcloud
         target: newtab
+        id: 2_714_nextcloud
       - title: Plex
         icon: hl-plex
         url: https://app.plex.tv/web/app
         target: newtab
+        id: 3_714_plex
     displayData:
       sortBy: default
       rows: 1
