@@ -49,6 +49,12 @@ sections:
       hideForGuests: false
   - name: Seedbox
     icon: fas fa-seedling
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
     items:
       - title: Hydra
         icon: fas fa-radar
@@ -75,4 +81,3 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-    items: []
