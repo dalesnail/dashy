@@ -23,21 +23,21 @@ sections:
     icon: fas fa-house-night
     items:
       - title: Stash
-        icon: fas fa-box-open
+        icon: hl-stash
         url: http://localhost:9999/
         id: 0_393_stash
       - title: Whisparr
-        icon: fas fa-wind
+        icon: U+1F351
         url: http://localhost:6969/
         target: newtab
         id: 1_393_whisparr
       - title: NZBGet
-        icon: fas fa-download
+        icon: hl-nzbget
         url: http://127.0.0.1:6789/
         target: newtab
         id: 2_393_nzbget
       - title: NZBHydra
-        icon: fas fa-radar
+        icon: hl-nzbhydra
         url: http://192.168.1.80:5076/
         target: newtab
         id: 3_393_nzbhydra
@@ -47,34 +47,28 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-  - name: Seedbox
-    icon: fas fa-seedling
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
+  - name: Home
+    icon: fas fa-house-night
     items:
       - title: Hydra
-        icon: fas fa-radar
-        url: https://dalesnail.lw601.usbx.me/nzbhydra2
-        id: 0_714_hydra
-      - title: NZBGet
-        icon: fas fa-download
+        icon: hl-nzbhydra
+        url: http://localhost:9999/
+        id: 0_393_hydra
+      - title: NZBget
+        icon: hl-nzbget
         url: https://dalesnail.lw601.usbx.me/nzbget
         target: newtab
-        id: 1_714_nzbGet
+        id: 1_393_nzbget
       - title: Nextcloud
-        icon: fas fa-cloud
+        icon: hl-nextcloud
         url: https://dalesnail.lw601.usbx.me/nextcloud
         target: newtab
-        id: 2_714_nextcloud
+        id: 2_393_nextcloud
       - title: Plex
         icon: hl-plex
         url: https://app.plex.tv/web/app
         target: newtab
-        id: 3_714_plex
+        id: 3_393_plex
     displayData:
       sortBy: default
       rows: 1
