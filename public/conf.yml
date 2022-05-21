@@ -1,47 +1,58 @@
----
-# Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: Dale Dash
+  description: ''
   navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+      target: newtab
+    - title: Documentation
+      path: https://dashy.to/docs
+      target: newtab
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: dashy-docs
+  layout: vertical
+  iconSize: medium
+  language: en
+  customColors:
+    dashy-docs:
+      primary: '#9a9a9a'
+      background: '#202020'
+      background-darker: '#121212'
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: Home
+    icon: fas fa-house-night
+    items:
+      - title: Stash
+        icon: fas fa-box-open
+        url: http://localhost:9999/
+        id: 0_393_stash
+      - title: Whisparr
+        icon: fas fa-wind
+        url: http://localhost:6969/
+        target: newtab
+        id: 1_393_whisparr
+      - title: NZBGet
+        icon: fas fa-download
+        url: http://127.0.0.1:6789/
+        target: newtab
+        id: 2_393_nzbget
+      - title: NZBHydra
+        icon: fas fa-radar
+        url: http://192.168.1.80:5076/
+        target: newtab
+        id: 3_393_nzbhydra
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Seedbox
+    icon: fas fa-seedling
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    items: []
