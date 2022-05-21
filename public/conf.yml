@@ -49,6 +49,7 @@ sections:
       hideForGuests: false
   - name: Seedbox
     icon: fas fa-seedling
+    items:
       - title: Hydra
         icon: fas fa-radar
         url: https://dalesnail.lw601.usbx.me/nzbhydra2
