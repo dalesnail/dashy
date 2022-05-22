@@ -19,8 +19,8 @@ appConfig:
       background: '#202020'
       background-darker: '#121212'
 sections:
-  - name: Seedbox
-    icon: fas fa-seedling
+  - name: Home
+    icon: fas fa-house-night
     items:
       - title: Stash
         icon: hl-stash
@@ -38,7 +38,7 @@ sections:
         id: 2_393_nzbget
       - title: NZBHydra
         icon: hl-nzbhydra
-        url: http://192.168.1.80:5076/
+        url: http://localhost:9999/
         target: newtab
         id: 3_393_nzbhydra
     displayData:
@@ -47,28 +47,38 @@ sections:
       cols: 1
       collapsed: false
       hideForGuests: false
-  - name: Home
-    icon: fas fa-house-night
+  - name: Seedling
+    icon: fas fa-seedling
     items:
       - title: Hydra
         icon: hl-nzbhydra
-        url: http://localhost:9999/
-        id: 0_393_hydra
+        url: http://192.168.1.80:5076/
+        id: 0_811_hydra
       - title: NZBget
         icon: hl-nzbget
         url: https://dalesnail.lw601.usbx.me/nzbget
         target: newtab
-        id: 1_393_nzbget
+        id: 1_811_nzbget
       - title: Nextcloud
         icon: hl-nextcloud
         url: https://dalesnail.lw601.usbx.me/nextcloud
         target: newtab
-        id: 2_393_nextcloud
+        id: 2_811_nextcloud
       - title: Plex
         icon: hl-plex
         url: https://app.plex.tv/web/app
         target: newtab
-        id: 3_393_plex
+        id: 3_811_plex
+      - title: qBittorrent
+        icon: hl-qbittorrent
+        url: https://dalesnail.lw601.usbx.me/qbittorrent
+        target: newtab
+        id: 4_811_qbittorrent
+      - title: sabnzbd
+        icon: hl-sabnzbd
+        url: http://dalesnail.lw601.usbx.me/sabnzbd
+        target: newtab
+        id: 5_811_sabnzbd
     displayData:
       sortBy: default
       rows: 1
