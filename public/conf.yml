@@ -11,7 +11,7 @@ pageInfo:
 appConfig:
   theme: dashy-docs
   layout: vertical
-  iconSize: medium
+  iconSize: large
   language: en
   customColors:
     dashy-docs:
@@ -79,6 +79,47 @@ sections:
         url: http://dalesnail.lw601.usbx.me/sabnzbd
         target: newtab
         id: 5_811_sabnzbd
+      - title: Ultra CC panel
+        icon: fas fa-box
+        url: >-
+          https://cp.ultraseedbox.com/#/userservice/eec9d83c-a7a6-4ae5-bb4a-8e6dc2ade9ef
+        target: newtab
+        id: 6_811_ultraccpanel
+      - title: File Browser
+        icon: hl-filebrowser
+        url: https://dalesnail.lw601.usbx.me/filebrowser
+        target: newtab
+        id: 7_811_filebrowser
+      - title: Lidarr
+        icon: hl-lidarr
+        url: https://dalesnail.lw601.usbx.me/lidarr/
+        target: newtab
+        id: 8_811_lidarr
+      - title: Overseerr
+        icon: hl-overseerr
+        url: https://dalesnail.lw601.usbx.me/overseerr
+        target: newtab
+        id: 9_811_overseerr
+      - title: Radarr
+        icon: hl-radarr
+        url: https://dalesnail.lw601.usbx.me/radarr
+        target: newtab
+        id: 10_811_radarr
+      - title: Prowlarr
+        icon: hl-prowlarr
+        url: https://dalesnail.lw601.usbx.me/prowlarr
+        target: newtab
+        id: 11_811_prowlarr
+      - title: Sonarr
+        icon: hl-sonarr
+        url: https://dalesnail.lw601.usbx.me/sonarr
+        target: newtab
+        id: 12_811_sonarr
+      - title: Ombi
+        icon: hl-ombi
+        url: https://dalesnail.lw601.usbx.me/ombi
+        target: newtab
+        id: 13_811_ombi
     displayData:
       sortBy: default
       rows: 1
