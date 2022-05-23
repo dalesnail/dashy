@@ -19,35 +19,7 @@ appConfig:
       background: '#202020'
       background-darker: '#121212'
 sections:
-  - name: Home
-    icon: fas fa-house-night
-    items:
-      - title: Stash
-        icon: hl-stash
-        url: http://localhost:9999/
-        id: 0_393_stash
-      - title: Whisparr
-        icon: U+1F351
-        url: http://localhost:6969/
-        target: newtab
-        id: 1_393_whisparr
-      - title: NZBGet
-        icon: hl-nzbget
-        url: http://127.0.0.1:6789/
-        target: newtab
-        id: 2_393_nzbget
-      - title: NZBHydra
-        icon: hl-nzbhydra
-        url: http://localhost:9999/
-        target: newtab
-        id: 3_393_nzbhydra
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
-  - name: Seedling
+  - name: Seedbox
     icon: fas fa-seedling
     items:
       - title: Hydra
@@ -120,6 +92,34 @@ sections:
         url: https://dalesnail.lw601.usbx.me/ombi
         target: newtab
         id: 13_811_ombi
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+  - name: Home
+    icon: fas fa-house-night
+    items:
+      - title: Stash
+        icon: hl-stash
+        url: http://localhost:9999/
+        id: 0_393_stash
+      - title: Whisparr
+        icon: U+1F351
+        url: http://localhost:6969/
+        target: newtab
+        id: 1_393_whisparr
+      - title: NZBGet
+        icon: hl-nzbget
+        url: http://127.0.0.1:6789/
+        target: newtab
+        id: 2_393_nzbget
+      - title: NZBHydra
+        icon: hl-nzbhydra
+        url: http://localhost:9999/
+        target: newtab
+        id: 3_393_nzbhydra
     displayData:
       sortBy: default
       rows: 1
