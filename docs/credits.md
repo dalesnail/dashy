@@ -82,17 +82,17 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/stanly0726">
-            <img src="https://avatars.githubusercontent.com/u/37040069?v=4" width="80;" alt="stanly0726"/>
-            <br />
-            <sub><b>Stanly0726</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/dalesnail">
             <img src="https://avatars.githubusercontent.com/u/20726565?v=4" width="80;" alt="dalesnail"/>
             <br />
             <sub><b>Cameron Mills</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/stanly0726">
+            <img src="https://avatars.githubusercontent.com/u/37040069?v=4" width="80;" alt="stanly0726"/>
+            <br />
+            <sub><b>Stanly0726</b></sub>
         </a>
     </td></tr>
 <tr>
